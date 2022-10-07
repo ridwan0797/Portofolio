@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+.text-gradient {
+  background: #ad5389;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +23,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +44,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.glass-card {
+  background: rgba(204, 183, 183, 0.25);
+  opacity: 0.9;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
