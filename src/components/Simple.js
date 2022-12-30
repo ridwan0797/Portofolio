@@ -12,8 +12,8 @@ function App() {
   return (
     <div className='w-screen h-screen bg-white'>
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 h-full'>
-        <div className='bg-white'>
-          <div className='m-2'>
+        <div className='bg-white col-span-1 h-full'>
+          <div className='m-2 h-full'>
             <div className='flex flex-col h-full gap-2'>
               <div className='flex-none h-1/2 m-7 text-black text-justify font-normal'>
                 <div className='text-sm'>Ridwan Maulana</div>
@@ -59,15 +59,15 @@ function App() {
 
               </div>
 
-              <div className='flex-grow m-4 mt-28 w-full h-full'>
-                <button className='bg-white hover:bg-gray-100 border rounded-md  text-black text-xs outline px-36 py-2'> SAY HELLO! </button>
+              <div className='flex-grow m-4 mt-5 lg:mt-28 w-full h-full'>
+                <button className='bg-white hover:bg-gray-100 border rounded-md  text-black text-xs outline px-12 md:px-12 lg:px-36 py-2'> SAY HELLO! </button>
               </div>
             </div>
           </div>
 
         </div>
 
-        <div className=' md:col-span-2 lg:col-span-2 h-full overflow-x-hidden text-center' >
+        <div className='col-span-2 md:col-span-2 lg:col-span-2 h-96 md:h-full lg:h-full overflow-x-hidden text-center' >
           <div className='mx-2 my-6 flex flex-row justify-center h-3/3'>
             <img alt='images'  width={'90%'} className='object-fill' src='https://uploads-ssl.webflow.com/63640793650a2e24af80903e/63709a72b73c8d0ddd709131_COMP_iMac-p-1600.jpg' style={{height: 'auto'}} />  
           </div>
