@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home.js'
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+// import Home from './components/Home.js'
+import Simple from './components/Simple.js'
+
+// import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="glass-card text-black absolute top-4 left-4">
+        {/* <div className="glass-card text-black absolute top-4 left-4">
           <div className='flex flex-row gap-0'>
           <div className=" flex-grow m-4 text-[18px] font-bold text-gray-500">
             RidwanMaulana / Home
@@ -20,9 +22,10 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         
-        <Home></Home>
+        {/* <Home></Home> */}
+        <Simple />
 
         {/* <a
           className="App-link"
