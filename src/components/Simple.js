@@ -40,11 +40,11 @@ function App() {
 
               </div>
 
-              <div className='flex-none h-8 mt-0 lg:mt-12 mx-10'>
+              <div className='flex-none h-8 mt-0 lg:mt-0 mx-10'>
                 <div className='border-t border-gray-200 h-8'></div>
               </div>
 
-              <div className='flex-grow mt-0 md:mt-6 lg:mt-12 text-black'>
+              <div className='flex-grow mt-2 md:mt-4 lg:mt-0 text-black'>
                 <div className='text-xs'>Experience</div>
                 <div className='m-4 mt-8'>
                   <div className='text-left text-xs font-medium'>- PT. Dirgantara Indonesia (PERSERO)</div>
@@ -59,12 +59,11 @@ function App() {
 
               </div>
 
-              <div className=' none flex-grow m-4 mt-0 lg:mt-20 w-full h-full'>
-                <button className='bg-white hover:bg-gray-100 border rounded-md  text-black text-xs outline px-12 md:px-12 lg:px-36 py-2'> SAY HELLO! </button>
+              <div className=' none flex-grow m-4 mt-4 lg:mt-10  w-full h-full'>
+                <button className='bg-white hover:bg-gray-100 border rounded-md  text-black text-xs outline px-24 md:px-12 lg:px-36 py-2 mr-10 md:mr-0 lg:mr-0'> SAY HELLO! </button>
               </div>
             </div>
           </div>
-
         </div>
 
         <div className='flex-grow md:flex-grow lg:col-span-2 h-auto md:h-full lg:h-full overflow-x-hidden text-center' >
