@@ -9,7 +9,6 @@ function App() {
     AOS.init()
   })
 
-const TAGS = Array.from({ length: 50 }).map((_, i, a) => `v1.2.0-beta.${a.length - i}`);
   return (
     <div className='w-screen h-screen bg-white'>
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 h-full'>
