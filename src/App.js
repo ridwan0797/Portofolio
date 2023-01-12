@@ -1,14 +1,20 @@
 // import logo from './logo.svg';
 import './App.css';
 // import Home from './components/Home.js'
-import Simple from './components/Simple.js'
-
+// import Simple from './components/Simple.js'
+import Page from './components/Page.js'
+import DotRing from "./components/DotRing/DotRing";
 // import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
+
+        <DotRing />
+    
+    
         {/* <div className="glass-card text-black absolute top-4 left-4">
           <div className='flex flex-row gap-0'>
           <div className=" flex-grow m-4 text-[18px] font-bold text-gray-500">
@@ -25,7 +31,9 @@ function App() {
         </div> */}
         
         {/* <Home></Home> */}
-        <Simple />
+        {/* <Simple /> */}
+        <Page />
+
 
         {/* <a
           className="App-link"
